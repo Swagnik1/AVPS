@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Vehicle Parking System</title>
+    <link rel="stylesheet" href="dash.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="./Favicon/favicon.jpg">
+    <script src="https://kit.fontawesome.com/4a44f91575.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="#"><img src="./Images/logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="html.html" target="_blank">DETAILS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li> <a href="http://localhost/Project/login.php" target="_blank">ADMIN LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Automatic Vehicle Parking System</h1>
+            <p>Secure Advanced Vehicle Parking System and Solution is designed to monitor, control with reserve Parking System</p>
+            <a href="./index1.php" class="button" target="_blank">SIGN IN NOW</a>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>Thank You For Visiting Our  WebPage</h4>
+        <div class="icons">
+            <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Swagnik & Mahadeb</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
